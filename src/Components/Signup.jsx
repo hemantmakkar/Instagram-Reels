@@ -51,7 +51,8 @@ const Signup = (props) => {
           email: email,
           userId: uid,
           username: username,
-          profileImageUrl: profileImageUrl
+          profileImageUrl: profileImageUrl,
+          postsCreated: []
         });
         props.history.push("/");      // navigate to /
       }
